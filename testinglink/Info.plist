@@ -23,7 +23,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>comtsmmysentinelalert</string>
+				<string>comtsmsentinelalert</string>
 			</array>
 		</dict>
 	</array>

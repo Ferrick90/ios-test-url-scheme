@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func linkPressed(_ sender: Any) {
-        let url = NSURL(string: "comtsmmysentinelalert://")! as URL
+        let url = NSURL(string: "comtsmsentinelalert://")! as URL
         if UIApplication.shared.canOpenURL(url) {
             UIApplication.shared.open(url, options: [:], completionHandler: nil)
         }
